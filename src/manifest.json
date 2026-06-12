@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "YTPP",
+  "version": "0.1",
+
+  "description": "Tries to fix the YT web UI for desktop.",
+
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png",
+    "256": "icons/icon-256.png"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ytpp@lostshadowgd.github.io",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["ytpp.js"]
+    }
+  ]
+}
