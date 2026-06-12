@@ -15,6 +15,5 @@ If one of these features does not work, use the Issues tab to create a bug repor
 - Option to remove news section
 - Option to remove shorts
 
-## Installation
-
+## Installation
 Click the ```Releases``` tab to the left, and click the latest .xpi file to download it. Then, in Firefox, go to ```about:addons```, click the cog next to ```Manage Your Extensions```, select ```Install Add-On From File``` and open the .xpi file you downloaded in the resulting window.
