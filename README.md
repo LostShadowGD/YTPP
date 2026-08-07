@@ -8,7 +8,7 @@ A Firefox Add-On which tries to fix the YT desktop web UI.
 - Return capital letters in abbreviations (```k``` -> ```K```, etc)
 - Return the old video tile metadata (from ```▶ 1k  2 yr ago``` to ```1k views • 2 years ago```)
   
-<br>If one of these features does not work, use the Issues tab to create a bug report.
+If one of these features does not work, use the Issues tab to create a bug report.
 
 ## Planned Features
 - UI for toggling features (along with MAJOR speed and efficiency boosts to the code in general)
