@@ -18,3 +18,4 @@ Click the ```Releases``` tab to the left, and click the latest .xpi file to down
 - Option to remove unique banners/logo for events
 - Option to remove news section
 - Option to remove shorts
+- Option to replace the new Heart icon in Shorts with the old Like icon
